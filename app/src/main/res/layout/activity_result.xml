@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context="com.umarfadil.basketcounter.ResultActivity">
+
+    <TextView
+        android:id="@+id/winning_team"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Winning Status"
+        android:textSize="32sp"/>
+
+    <TextView
+        android:id="@+id/end_score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="16dp"
+        android:text="EndScore"
+        android:textSize="24sp"/>
+
+    <TextView
+        android:id="@+id/score_different"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="16dp"
+        android:text="Score Different"
+        android:textSize="24sp"/>
+
+
+
+
+</LinearLayout>
+
